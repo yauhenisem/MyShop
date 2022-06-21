@@ -1,3 +1,6 @@
+import lombok.Setter;
+
+@Setter
 public class Test {
     private String name;
     private String surname;
