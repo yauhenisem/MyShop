@@ -3,11 +3,12 @@ package com.shop.controller;
 import com.shop.model.User;
 import com.shop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
+@RequestMapping("/user")
 public class Control {
     private UserService userService;
 
@@ -16,27 +17,25 @@ public class Control {
         this.userService = userService;
     }
 
-    @GetMapping("/get")
-    String getUserById(@RequestParam long id, ModelMap modelMap) {
-        User user = userService.getUserById(id);
-        modelMap.addAttribute("someUser", user.toString());
-        return "get";
+    @GetMapping("/{id}")
+    public ResponseEntity<User> getUserById(@PathVariable long id) {
+        return new ResponseEntity<>(userService.getUserById(id), HttpStatus.OK);
     }
 
-    @DeleteMapping("/delete/{id}")
-    void deleteUserById(@PathVariable long id) {
+    @DeleteMapping("/{id}")
+    public ResponseEntity<User> deleteUserById(@RequestBody long id) {
         userService.deleteUserById(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @PostMapping("/create")
-    String createUserById(ModelMap modelMap, @RequestParam String name, int age) {
-        int lines = userService.createUserByName(name, age);
-        modelMap.addAttribute("info", lines);
-        return "create";
+    @PostMapping
+    public ResponseEntity createUserById(@RequestBody User user) {
+        return new ResponseEntity(HttpStatus.CREATED);
     }
 
-    @PutMapping("/update")
-    void updateUserById(@RequestParam long id, String name) {
-        userService.updateUserById(id, name);
+    @PutMapping
+    public ResponseEntity updateUserById(@RequestBody User user) {
+        userService.updateUserById(user);
+        return new ResponseEntity(HttpStatus.OK);
     }
 }

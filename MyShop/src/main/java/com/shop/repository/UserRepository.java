@@ -1,15 +1,16 @@
 package com.shop.repository;
+
 import com.shop.model.User;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserRepository {
-    int createUserByName(String name, int age);
+    void createUserByName(User user);
 
-    User getUserById(long id);
+     User getUserById(long id);
 
-    int updateUserById(long id, String name);
+    void updateUserById(User user);
 
-    int deleteUserById(long id);
+    void deleteUserById(long id);
 
 }
