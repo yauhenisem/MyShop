@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 @Component
-public class UserMapper implements RowMapper<User> {
+public class    UserMapper implements RowMapper<User> {
 
     private User user;
 
