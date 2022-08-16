@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82ad28bd-c417-4994-bee9-ed22de3970f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MyShop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/controller/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/controller/Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/src/main/java/com/shop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/controller/Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/controller/Control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/classes/com/shop/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/MyShop/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/controller/Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/controller/Control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/classes/com/shop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyShop/target/classes/com/shop/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyShop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/Aa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Test/out/production/Test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Aa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CaBN4eGjmOsmrkm29G4gpZ4NSp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82ad28bd-c417-4994-bee9-ed22de3970f5" name="Default Changelist" comment="" />
+      <created>1659030771369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659030771369</updated>
+      <workItem from="1659030772701" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
